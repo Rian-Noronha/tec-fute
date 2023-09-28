@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #FFFAFA;
+}
+
+/*
+    Área de cabeçalho
+*/
+
+#area-cabecalho{
+    background: #e7d7d7;
+    padding: 15px;
+    text-align: center;
+}
+
+.cinza{
+    color: #C0C0C0;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+    color: #6B8E23;
+    background: #fff;
+    text-decoration: none;
+}
+
+
+/*
+   Área principal
+*/
+
+
+#area-principal{
+    background: #faf8f8;
+    width: 920px;
+    margin: auto;
+    padding: 20px;
+}
+
+#area-postagens{
+    width: 660px;
+    float:left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.conteudo-lateral{
+    background: whitesmoke;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 0.8;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+
+#rodape{
+    clear: both;
+    background: green;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+.postagem img{
+    border: 1px solid black;
+}
+
+/*
+   Formatações gerais
+*/
+
+
+a{
+    text-decoration: none;
+}
+
+
+a:link, a:visited{
+    color: #C0C0C0;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    color: #4e4e43;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #C0C0C0;
+}
+
+h3{
+    color: #C0C0C0;
+    background: #f0dada;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
